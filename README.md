@@ -22,22 +22,23 @@ In this project you will implement Redux to manage the state for this React appl
 
 This project was put together using create-react-app (CRA). You will not need to install CRA in order to make this project work. Follow the steps below to setup the project with the proper dependencies.
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
-- [ ] Add the dependencies you will need to implement Redux. Also, add you may need to add `node-sass` as a dependency.
-- [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your team lead as collaborator on Github.
+- [x] Clone your OWN version of the repository in your terminal
+- [x] Download project dependencies by running one of these two commands `yarn` or `npm install`
+- [x] Add the dependencies you will need to implement Redux. Also, add you may need to add `node-sass` as a dependency.
+- [x] __NB!__ During build, `fsevents` will complain that it's not compatible with Linux 4.4 (18.04.3). That's may be true, but you can get around the error: force `yarn and npm` to the latest build with `sudo npm install -g npm@latest` and  `sudo apt update && sudo apt install yarn`. Then remove all your node files with `rm -r node_modules` and purge the cache with `npm cache clean`. Run `yarn` to re-download them and add `yarn add node-sass` before starting the project. Continue using `yarn` for the rest of your progress. 
+- [x] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
       Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge Branch into master (student's Repository).
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [x] Do your magic!
 
 # _Project - Car Sales_
 
